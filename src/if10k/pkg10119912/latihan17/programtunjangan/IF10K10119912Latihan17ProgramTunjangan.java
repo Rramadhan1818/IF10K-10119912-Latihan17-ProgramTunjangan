@@ -34,7 +34,7 @@ public class IF10K10119912Latihan17ProgramTunjangan {
         gaji = input.nextInt();
         System.out.print("Status anda ? (Menikah/belum)   : ");
             status = input.next();
-            if(gaji >= 6000000 && status.equals("Menikah")){              
+            if(gaji >= 6000000 && status.equals("Menikah") || status.equals("menikah") ){              
                     tunjangan =(float) (0.35*gaji); 
                     totalGaji = gaji+tunjangan;
                     System.out.println("=========== Hasil Perhitungan Gaji Anda ===========");
